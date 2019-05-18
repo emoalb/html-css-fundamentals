@@ -1,0 +1,40 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+@import "https://use.fontawesome.com/releases/v5.6.1/css/all.css";
+
+body {
+    font: 15px/1.5 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    color: red;
+    font-weight: 900;
+}
+.content > p{
+    margin-left: 15px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.card {
+    border: 1px black solid;
+    border-radius: 5%;
+    margin: 10px;
+}
+.listing{
+ text-align: left;
+margin-left: 20px;
+}
+
+
+img {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+i {
+    margin-right: 5px;
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<header>
+    <h2><i class="fas fa-shopping-cart"></i>Buy online ticket to Milano</h2>
+</header>
+<main>
+    <section class="image-holder">
+        <img src="img/travel.png"/>
+        <h3>Book your ticket NOW!</h3>
+        <p>Start saving straight away with our special online rates.</p>
+    </section>
+    <section class="form-holder">
+        <form>
+            <select>
+                <option value="malpensa">Malpensa</option>
+            </select>
+
+            <div class="select-time">
+                <div class="entry">
+                    <label for="entry">Entry</label>
+                    <input type="date" data-date-format="MM DD YYYY" id="entry"/>
+                    <label for="exit">Exit</label>
+                    <input type="date" id="exit"/>
+                </div>
+                <div class="entry">
+                    <label for="time-entry">Time</label>
+                    <input type="time" id="time-entry"/>
+                    <label for="time-exit">Time</label>
+                    <input type="time" id="time-exit"/>
+                </div>
+            </div>
+            <button>SEARCH</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

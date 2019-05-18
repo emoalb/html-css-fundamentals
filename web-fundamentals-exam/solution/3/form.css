@@ -1,0 +1,115 @@
+@import "https://use.fontawesome.com/releases/v5.6.1/css/all.css";
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+body {
+    font: 15px/1.5 'Roboto', sans-serif;
+    margin: 60px auto 0 auto;
+    width: 90%;
+    border: 1px black solid;
+
+}
+
+header {
+
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+    background-color: #ebebeb;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header i {
+    margin-right: 7px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-holder {
+    width: 90%;
+    margin: 0;
+    text-align: center;
+}
+.image-holder p{
+    text-align: left;
+    margin-left: 8px;
+}
+.image-holder img {
+    width: 70%;
+
+}
+
+.form-holder {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0;
+    padding: 10px;
+    border-left: 1px gainsboro solid;
+}
+
+.form-holder > form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.select-time {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0;
+
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+input {
+    width: 30%;
+    margin: 10px;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align-last: center;
+}
+
+input {
+    border: 1px black solid;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+button {
+
+    margin: 10px auto 10px auto;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 20%;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+
+}

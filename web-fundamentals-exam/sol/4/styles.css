@@ -1,0 +1,183 @@
+@import "https://use.fontawesome.com/releases/v5.6.1/css/all.css";
+@import "https://fonts.googleapis.com/css?family=Helvetica";
+
+body {
+    font: 15px/1.5 'Helvetica', sans-serif;
+}
+
+#top-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul > li {
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul > li:hover {
+    background: rgb(157, 108, 13);
+    color: white;
+    cursor: pointer;
+}
+
+nav ul > li p {
+    margin: 5px;
+}
+
+#main ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logo-container {
+    margin: 30px 0 0 30px;
+    background: linear-gradient(rgb(194, 157, 50), rgb(157, 108, 13));
+    width: 180px;
+    height: 150px;
+    text-align: center;
+    left: 20px;
+    top: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.logo-container > img {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#shuttle {
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url("img/slider.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#sh-diag {
+
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 24rem;
+    height: 12rem;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    background: rgba(8, 8, 8, 0.4);
+}
+
+#sh-diag > h2 {
+    margin: 0;
+}
+
+#sh-diag > button {
+    background: rgba(8, 8, 8, 0.4);
+    color: rgb(253, 164, 0);
+    padding: 10px;
+    border: 3px white solid;
+    font-weight: 600;
+}
+
+#sh-diag > button:hover {
+    background: white;
+    cursor: pointer;
+}
+
+#buda-card {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to left,rgb(194, 157, 50), rgb(157, 108, 13));
+}
+
+#buda-card p {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+}
+
+p > i {
+    margin-right: 2px;
+}
+
+#buda-card h2 {
+    margin-top: 0;
+
+}
+
+#buda-card > button {
+    border: 2px white solid;
+    background-color: transparent;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    margin: 20px;
+    font-weight: 600;
+}
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+#see-more {
+
+
+
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.images-container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:70%;
+}
+.image-container  img{
+    width:100px;
+    height: 100px;
+    margin:2px;
+    border-radius: 50px;
+    padding:2px;
+    border: 1px black solid;
+
+}
+.image-container  p{
+  margin: 2px;
+    text-align: center;
+}
+#newsletter{
+    display: flex;
+    background: linear-gradient(to right,rgb(194, 157, 50), rgb(157, 108, 13));
+    justify-content: space-between;
+    color: white;
+}
+.caption h4 {
+    margin  :12px 12px 4px 4px;
+}.caption p {
+     margin :0 4px 0 4px;
+ }
+#newsletter > button {
+    border: 2px white solid;
+    background-color: transparent;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    margin: 8px;
+    font-weight: 600;
+}
